@@ -1,3 +1,8 @@
+/*!
+ * jQuery Drop-down plugin
+ * Original author: @jeffpowrs
+ * Licensed under the MIT license
+ */
 
 (function ( $, window, document, undefined ) {
 
@@ -18,14 +23,6 @@
       });
     };
   };
-
-})( jQuery, window , document );
-
-/* ======================================
-  Dropdown @jp 2013.04
- ====================================== */
-
-(function ( $, window, document, undefined ) {
   
   var $html = $('html'),
       defaults = {
